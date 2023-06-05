@@ -1,0 +1,30 @@
+ body{
+     background-color:#24243e;
+     
+ }
+
+div{
+    color:white;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration:white ;
+    
+
+
+}
+.btn{
+    margin-top: 20px;
+}
+#kural{
+    border-radius:10px ;
+    height:40px;
+   
+}
+.section{
+    color:white;
+    font-size:10px ;
+}
+.eng{
+    color:white;
+}
+

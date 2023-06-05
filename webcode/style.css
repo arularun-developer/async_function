@@ -1,0 +1,87 @@
+
+   .container-fluid{
+    text-align: center;
+    margin-top:80px;
+    padding-left:5px;
+    padding-top:5px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:150px;
+    color:white;
+
+   }
+ 
+   #searchtext{
+    display: inline-block;
+    height:40px;
+    width:600px;
+    border-radius: 10px;
+    outline-color:#203A43;
+
+}
+#btn{
+    height:35px;
+    width: auto;
+    text-align: center;
+    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:10px ;
+
+    
+    
+}
+#resetbtn{
+    margin-left:10px ;
+}
+
+#searchtext{
+    display: inline-block;
+    border-radius:5px;
+}
+#resetbtn{
+    height: 35px;
+    width: auto;
+    text-align: center;
+    border-radius:5px;
+   
+}
+
+.container{
+    color:black;
+    display: inline-block;
+    height: 220px;
+    
+}
+#text{
+    font-size:25px;
+    word-spacing:2px ;
+    position: relative;
+    bottom:60px;
+    right:20px
+    
+}
+#textcolor{
+    background: #FFB76B;
+    background: linear-gradient(to right, #FFB76B 0%, #3D84FF 45%, #6C40FF 60%, #FF7F04 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+#text{
+    
+    background: linear-gradient(to right, #FFB76B 0%, #3D84FF 35%, #6C40FF 60%, #FF7F04 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.container >.card{
+  color:white;
+  display:inline-block;
+  width:400px;
+  height:150px;
+  background: linear-gradient(to right, #FFB76B 0%, #3D84FF 45%, #6C40FF 60%, #FF7F04 100%);
+  
+}
+
+.card-body{
+    padding-top: 10px;
+}

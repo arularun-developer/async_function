@@ -1,0 +1,49 @@
+
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+body{
+    width:550px;
+    height:200px;
+    border-radius:20px ;
+    position: absolute;
+    left: 650px;
+    top:370px;
+    background-image: url("https://images.pexels.com/photos/10458835/pexels-photo-10458835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    outline: 4px solid ;
+    animation: mymove 2s infinite;
+}
+.spantag{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    top:90px;
+    font-size: 2.0rem;
+    font-weight:1000;
+    color:white;
+    letter-spacing:2px ;
+}
+/* body  outline color chnaged */
+@keyframes mymove {
+    100%{
+        outline-color:#FBD786 ;
+    }
+    80%{
+        outline-color:#203A43 ;
+    }
+    60%{
+        outline-color:#4286f4 ;
+    }
+    40%{
+        outline-color:#99f2c8 ;
+    }
+    20%{
+  
+        outline-color:#ffd452 ;
+    }
+}

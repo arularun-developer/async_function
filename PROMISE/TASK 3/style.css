@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(90deg, hsla(59, 86%, 68%, 1) 0%, hsla(134, 36%, 53%, 1) 100%);
+}
+
+#button {
+    margin-left: 10px;
+
+}
+h3{
+    background: linear-gradient(to right, #FFB76B 0%, #114aad 35%, #6C40FF 60%, #FF7F04 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

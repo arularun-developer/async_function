@@ -1,0 +1,37 @@
+body{
+  background-color:#a8c0ff !important;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4,minmax(15rem,1fr));
+  column-gap:100px !important ;
+  row-gap: 30px;
+  text-align: center !important;
+  
+}
+.card{
+  border-radius: 10px;
+   margin-top: 20px;
+   margin-left:20px ;
+  overflow: hidden; 
+  max-height: 50rem; 
+  width:20rem;
+  height: 29rem;
+}
+.card:hover{
+  transform: scale(1.1) ;
+  -webkit-transform: scale(1.1) ;
+  -moz-transform: scale(1.1) ;
+
+
+}
+
+.flag{
+  justify-content: center;
+  place-content: center;
+  text-align: center;
+  padding: 10px 5px ;
+  width:15rem;
+  height: 10rem;
+  margin:auto;
+}
+
